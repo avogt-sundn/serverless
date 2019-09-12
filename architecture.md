@@ -1,6 +1,14 @@
 # News on architecture
 
-> A definition - anybody?
+>
+The road behind
+
+![History](img/history.png)
+
+> 
+## Serverless
+>
+A definition - anybody?
 >
 _"Serverless computing refers to the concept of building and running applications that do not require server management."_
  (KNative project)
@@ -9,7 +17,7 @@ _"Serverless computing refers to the concept of building and running application
 _"It describes a finer-grained deployment model where applications, bundled as one or more functions, are uploaded to 
 a platform and then executed, scaled, and billed in response to the exact demand needed at the moment"_
 >
-# How does it affect my architecture?
+How does it affect my architecture?
 >
 
 ## Perfect paradigms
@@ -33,7 +41,8 @@ All ..
 * but rather: function as entrypoint
 >
 ## _source-to-URL_
-!
+
+(think about it - you will get the idea..)
 >
 
 ## Twelve-Factor Apps
