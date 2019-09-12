@@ -57,7 +57,7 @@ All ..
 >* Scale up without significant changes to tooling, architecture, or development practices.
 >
 
-## Cloud Eventing
+## Eventing _Cloud-style_
 >
 ### types
 * eventing between containers

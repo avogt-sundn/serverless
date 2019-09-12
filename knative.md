@@ -68,6 +68,7 @@ oc -n knativetutorial get ksvc greeter -oyaml \
 >>
 # Eventing
 >>
+
 ## Kubernetes Custom Resources 
 
 CRD = Custom Resource Definition API 

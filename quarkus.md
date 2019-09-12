@@ -8,7 +8,7 @@ _"A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted
 >>
 ## (1) Create your own builder image
 >>
-### (1.1) .. from Oracle's basic image
+(1.1) .. from Oracle's basic image
 
 * Use Oracle's GraalVM image, then install native support.
 * Name the container 'guimage'
@@ -23,8 +23,7 @@ _"A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted
     docker commit gu-installer  native-builder
     
 >>   
- 
-### (1.2) Build native code within a container
+(1.2) Build native code within a container
 
 ````
 docker run --rm -it \
@@ -34,7 +33,7 @@ docker run --rm -it \
 ````
 
 >>
-## (1.1.b) Shorthand using the prepared builder image
+(1.1.b) Shorthand using the prepared builder image
 
 * on your machine
 ````
@@ -43,7 +42,7 @@ docker run --rm -it \
 * this will start a docker container to do the maven native build (like we did before)
  
 >>
-#### (2) Build a docker image 
+(2) Build a docker image 
 
 * using the native output in your machine's `target/`folder (indicated by the dot `.` at the end)
 * the Dockerfile was created via scaffolding (no worries)
@@ -55,7 +54,7 @@ docker run --rm -it \
         -t quarkus-quickstart/getting-started .
         
 >>
-####  (3) .. and run the application   
+(3) .. and run the application   
             
     docker run -i --rm -p 8080:8080 \ 
         quarkus-quickstart/getting-started
